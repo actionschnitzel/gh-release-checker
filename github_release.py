@@ -15,7 +15,6 @@ github_release = (float(github_release))
 try:
     if github_release > current_version:
         print("[Info]: An Update is avalible !!!")
-        update_checker()
     elif github_release < current_version:
         print("WTF HAPPEND HERE?!!")
     elif github_release == current_version:
